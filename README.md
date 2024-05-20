@@ -74,7 +74,13 @@ Estas instruções permitirão que você obtenha uma cópia do projeto e execute
     sail artisan migrate --seed
    ```
 
-8. Rode os testes ou utilize alguma ferramenta como o postman para testar as rotas. Está disponibilizado um arquivo na raiz do projeto com todas as rotas para importação.
+8. Vincule o storage via artisan
+
+   ```sh
+    sail artisan storage:link
+   ```
+
+9. Rode os testes ou utilize alguma ferramenta como o postman para testar as rotas. Está disponibilizado um arquivo na raiz do projeto com todas as rotas para importação.
 
 </details>
 
